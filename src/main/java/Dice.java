@@ -6,6 +6,7 @@ public class Dice {
 
     // Constructor - creates objects/ sets initial properties
     public Dice(int numberOfDice){
+
         this.numberOfDice = numberOfDice;
     }
 
