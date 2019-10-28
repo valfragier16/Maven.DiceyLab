@@ -1,14 +1,11 @@
 
 public class Bins {
 
-    Integer[] numTallies;
+    private int[] numTallies;
 
     //constructor
     public Bins(int size){
-        this.numTallies = new Integer[size];
-        for(int i = 0; i < numTallies.length; i++){
-            numTallies[i] = 0;
-        }
+        this.numTallies = new int[size];
     }
 
     public void increment(int index){
